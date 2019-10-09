@@ -1,0 +1,114 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+html{
+	height: 100%;
+}
+body{
+
+	height: 100%;
+	background: #F5F5F5;
+}
+.box{
+	position: relative;
+	height: 100%;
+}
+
+h2{
+	margin-left: 30px;
+	
+	font-size:1rem;
+}
+.sub{
+	color: lightgray;
+	font-size: 0.33333333rem;
+	margin-left: 30px;
+	margin-top: 5px;
+}
+
+.deposit{
+	border: 1px lightgray solid;
+	width: 10rem;
+	height: 3.333333333rem;
+	position: relative;
+	left: 50%;
+	margin-left: -5rem;
+	margin-top: 20px;
+	border-radius: 10px;
+	background: white;
+}
+
+.money{
+	color:  #3399ff;
+	font-size: 1rem;
+	margin-top: 20px;
+	margin-left: 10px;
+}
+.word{
+	font-size: 0.5rem;
+	margin-top: 5px;
+	margin-left: 10px;
+}
+.payMethodContent{
+	width: 100%;
+	height: 1.5rem;
+	background: white;
+	margin-top: 20px;
+	
+	position: relative;
+
+}
+.img-a1,.img-a1 img{
+	width: 0.7rem;
+	height: 0.7rem;
+}
+.img-a1{
+	float: left;
+	margin-left: 10px;
+	margin-top: 10px;
+}
+.img-a2{
+	width: 0.6rem;
+	height: 0.6rem;
+	float: right;
+    margin-right: 20px;
+}
+.img-a2 img{
+	width: 0.6rem;
+	height: 0.6rem;
+}
+.payword{
+	float: left;
+	height: 1.5rem;
+	font-size: 0.5rem;
+	line-height: 1.5rem;
+	margin-left: 10px;
+}
+
+.freeBtn,.confirmPay{
+	width: 10rem;
+	height: 1.2rem;
+	font-size: 0.5rem;
+	left: 50%;
+	margin-left: -5rem;
+}
+.confirmPay{
+	position:absolute;
+	bottom: 0.33333333rem;
+	color: white;
+	text-align: center;
+	line-height: 1.2rem;
+	background: #696969;
+	border-radius: 50px;
+}
+.freeBtn{
+	position:absolute;
+	bottom: 2rem;
+	color: white;
+	text-align: center;
+	line-height: 1.2rem;
+	background: #3399ff;
+	border-radius: 50px;
+}
